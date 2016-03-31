@@ -1,0 +1,43 @@
+Ext.define('Newcasetrack1.newcasetrack1.shared.com.model.lexmauriscontext.userprofile.SignUpModel', {
+     "extend": "Ext.data.Model",
+     "fields": [{
+          "name": "primaryKey",
+          "type": "auto",
+          "defaultValue": ""
+     }, {
+          "name": "registrationId",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "contactid",
+          "reference": "CoreContacts",
+          "defaultValue": ""
+     }, {
+          "name": "regDate",
+          "type": "auto",
+          "defaultValue": ""
+     }, {
+          "name": "usertypeid",
+          "reference": "UserType",
+          "defaultValue": ""
+     }, {
+          "name": "photo",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "bar",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "versionId",
+          "type": "int",
+          "defaultValue": ""
+     }, {
+          "name": "entityAudit",
+          "reference": "EntityAudit"
+     }, {
+          "name": "primaryDisplay",
+          "type": "string",
+          "defaultValue": ""
+     }]
+});

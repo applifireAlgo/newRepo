@@ -1,0 +1,31 @@
+Ext.define('Newcasetrack1.newcasetrack1.shared.com.model.lexmauriscontext.legal.LitigationSubCategoryModel', {
+     "extend": "Ext.data.Model",
+     "fields": [{
+          "name": "primaryKey",
+          "type": "auto",
+          "defaultValue": ""
+     }, {
+          "name": "litSubCategoryId",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "litSubCategory",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "litigationcategoryid",
+          "reference": "LitigationCategory",
+          "defaultValue": ""
+     }, {
+          "name": "versionId",
+          "type": "int",
+          "defaultValue": ""
+     }, {
+          "name": "entityAudit",
+          "reference": "EntityAudit"
+     }, {
+          "name": "primaryDisplay",
+          "type": "string",
+          "defaultValue": ""
+     }]
+});

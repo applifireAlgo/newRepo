@@ -1,0 +1,32 @@
+Ext.define('Newcasetrack1.newcasetrack1.shared.com.model.lexmauriscontext.userprofile.UserProfileDtoModel', {
+     "extend": "Ext.data.Model",
+     "fields": [{
+          "name": "registrationId"
+     }, {
+          "name": "contactId"
+     }, {
+          "name": "regDate"
+     }, {
+          "name": "userTypeId"
+     }, {
+          "name": "photo"
+     }, {
+          "name": "bar"
+     }, {
+          "name": "genderId"
+     }, {
+          "name": "dateofbirth"
+     }, {
+          "name": "emailId"
+     }, {
+          "name": "phoneNumber"
+     }, {
+          "name": "titleId"
+     }, {
+          "name": "firstName"
+     }, {
+          "name": "lastName"
+     }, {
+          "name": "timeZoneId"
+     }]
+});

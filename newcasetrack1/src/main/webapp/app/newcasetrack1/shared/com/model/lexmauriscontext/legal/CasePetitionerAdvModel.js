@@ -1,0 +1,43 @@
+Ext.define('Newcasetrack1.newcasetrack1.shared.com.model.lexmauriscontext.legal.CasePetitionerAdvModel', {
+     "extend": "Ext.data.Model",
+     "fields": [{
+          "name": "primaryKey",
+          "type": "auto",
+          "defaultValue": ""
+     }, {
+          "name": "casePetAdvId",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "casepetadv",
+          "reference": "SignUp",
+          "defaultValue": ""
+     }, {
+          "name": "caseid",
+          "reference": "CaseInformation",
+          "defaultValue": ""
+     }, {
+          "name": "startDate",
+          "type": "auto",
+          "defaultValue": ""
+     }, {
+          "name": "endDate",
+          "type": "auto",
+          "defaultValue": ""
+     }, {
+          "name": "advcatid",
+          "reference": "CasePetitionerAdv",
+          "defaultValue": ""
+     }, {
+          "name": "versionId",
+          "type": "int",
+          "defaultValue": ""
+     }, {
+          "name": "entityAudit",
+          "reference": "EntityAudit"
+     }, {
+          "name": "primaryDisplay",
+          "type": "string",
+          "defaultValue": ""
+     }]
+});

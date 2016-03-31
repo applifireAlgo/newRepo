@@ -1,0 +1,2 @@
+
+GRANT ALL PRIVILEGES  ON tesone.* TO 'algo'@'%' IDENTIFIED BY 'algo' WITH GRANT OPTION

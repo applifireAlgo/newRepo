@@ -1,0 +1,35 @@
+Ext.define('Newcasetrack1.newcasetrack1.shared.com.model.lexmauriscontext.userprofile.ProfileForumMapModel', {
+     "extend": "Ext.data.Model",
+     "fields": [{
+          "name": "primaryKey",
+          "type": "auto",
+          "defaultValue": ""
+     }, {
+          "name": "profileForumId",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "regId",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "litcatid",
+          "reference": "LitigationCategory",
+          "defaultValue": ""
+     }, {
+          "name": "forumid",
+          "reference": "Forum",
+          "defaultValue": ""
+     }, {
+          "name": "versionId",
+          "type": "int",
+          "defaultValue": ""
+     }, {
+          "name": "entityAudit",
+          "reference": "EntityAudit"
+     }, {
+          "name": "primaryDisplay",
+          "type": "string",
+          "defaultValue": ""
+     }]
+});

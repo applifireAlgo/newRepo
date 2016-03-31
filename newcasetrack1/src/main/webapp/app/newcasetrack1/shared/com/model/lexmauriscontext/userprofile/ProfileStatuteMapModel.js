@@ -1,0 +1,35 @@
+Ext.define('Newcasetrack1.newcasetrack1.shared.com.model.lexmauriscontext.userprofile.ProfileStatuteMapModel', {
+     "extend": "Ext.data.Model",
+     "fields": [{
+          "name": "primaryKey",
+          "type": "auto",
+          "defaultValue": ""
+     }, {
+          "name": "litStatuteId",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "litcatid",
+          "reference": "LitigationCategory",
+          "defaultValue": ""
+     }, {
+          "name": "statuteid",
+          "reference": "Statute",
+          "defaultValue": ""
+     }, {
+          "name": "regid",
+          "reference": "SignUp",
+          "defaultValue": ""
+     }, {
+          "name": "versionId",
+          "type": "int",
+          "defaultValue": ""
+     }, {
+          "name": "entityAudit",
+          "reference": "EntityAudit"
+     }, {
+          "name": "primaryDisplay",
+          "type": "string",
+          "defaultValue": ""
+     }]
+});
